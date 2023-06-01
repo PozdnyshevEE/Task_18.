@@ -19,6 +19,7 @@ body * {
     border-radius: 2px;
     border: 0;
     outline: 0;
+    margin-top: -3px;
     padding: 11px 34px;
     color: white;
     text-transform: uppercase;
@@ -37,17 +38,20 @@ body * {
     display: flex;
     justify-content: space-between;
     height: 83px;
+    padding-top: 5px;
     align-items: center;
 }
 
 .header-navigation {
     list-style-type: none;
+    width: 650px;
     display: flex;
+    justify-content: space-around;
 }
 
-.header-navigation_item {
-    margin-right: 47px;
-} 
+.header-navigation {
+    margin: 28px;
+}
 
 .header-navigation_item a {
     text-decoration: none;
@@ -100,14 +104,78 @@ body * {
     z-index: 1;
 }
 
+.stock {
+    height: 105px;
+    width: 600px;
+    padding-left: 40px;
+    top: 277px;
+    border-radius: 0;
+}
+
 .title {
     margin: 0;
+    
     font-family: 'Yeseva One', 'Times New Roman', Times, serif;
     font-style: normal;
     font-weight: 400;
     font-size: 40px;
     line-height: 53px;
     text-transform: uppercase;
+    color: #FFFFFF;
+}
 
+.span-title {
+    color:#E3B873;
+}
+
+.stock-paragraph {
+    width: 500px;
+    height: 89px;
+    margin-top: 15px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 36px;
+    white-space: pre;
+    color: #FFFFFF;
+}
+
+.button-calculate {
+    background: #E3B873;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.3);
+    border-radius: 2px;
+    border: 0;
+    outline: 0;
+    margin-top: 23px;
+    margin-left: 2px;
+    height: 51px;
+    width: 207px;
+    left: 134px;
+    top: 531px;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+    text-align: center;
+    color: #FFFFFF;
+}
+
+.button-submit {
+    box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
+    border: 1px solid #FFFFFF;
+    border-radius: 2px;
+    background-color: transparent;
+    outline: 0;
+    margin-top: 23px;
+    margin-left: 16px;
+    height: 51px;
+    width: 207px;
+    left: 134px;
+    top: 531px;
+    font-style: italic;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 15px;
+    text-align: center;
     color: #FFFFFF;
 }
