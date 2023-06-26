@@ -1,33 +1,39 @@
 body {
-    margin: 0;
-    font-family: 'Nunito Sans', sans-serif;
-    width: 1440px;
-}
+    margin: 0 auto;
+} 
 
-body * {
+* {
+    margin: 0;
+    padding: 0;
     box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+    text-decoration: none;
+    list-style-type: none;
 }
 
 .container {
-    width: 1256px;
+    width: 1263px;
     margin: 0 auto;
 }
 
 .button {
-    background: #E3B873;
-    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
     border-radius: 2px;
     border: 0;
     outline: 0;
-    margin-top: -3px;
-    padding: 11px 34px;
-    color: white;
-    text-transform: uppercase;
     font-weight: 400;
     font-size: 11px;
     font-style: italic;
     line-height: 15px;
     text-align: center;
+    color: white;
+}
+
+.button-call {
+    background: #E3B873;
+    box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.2);
+    margin-top: -3px;
+    padding: 11px 34px;
+    text-transform: uppercase;
 }
 
 .header {
@@ -143,39 +149,26 @@ body * {
 .button-calculate {
     background: #E3B873;
     box-shadow: 0px 5px 15px rgba(227, 184, 115, 0.3);
-    border-radius: 2px;
-    border: 0;
-    outline: 0;
     margin-top: 23px;
     margin-left: 2px;
     height: 51px;
     width: 207px;
     left: 134px;
     top: 531px;
-    font-style: italic;
-    font-weight: 400;
-    font-size: 11px;
-    line-height: 15px;
-    text-align: center;
-    color: #FFFFFF;
 }
 
 .button-submit {
     box-shadow: 0 6px 6px rgba(0, 0, 0, 0.6);
     border: 1px solid #FFFFFF;
-    border-radius: 2px;
     background-color: transparent;
-    outline: 0;
     margin-top: 23px;
     margin-left: 16px;
     height: 51px;
     width: 207px;
     left: 134px;
     top: 531px;
-    font-style: italic;
-    font-weight: 400;
-    font-size: 11px;
-    line-height: 15px;
-    text-align: center;
-    color: #FFFFFF;
+}
+
+@media (max-width: 1440) {
+
 }
